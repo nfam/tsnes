@@ -1,0 +1,51 @@
+{
+  "name": "tsnes",
+  "version": "0.1.0",
+  "description": "A clone of JSNES in Typescript",
+  "main": "dist/nes.js",
+  "types": "dist/nes.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfam/tsnes.git"
+  },
+  "keywords": [
+    "NES",
+    "Nintendo",
+    "JSNES",
+    "emulator",
+    "game"
+  ],
+  "author": "Ninh Pham",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nfam/tsnes/issues"
+  },
+  "homepage": "https://github.com/nfam/tsnes#readme",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/nes.js",
+    "dist/nes.d.ts",
+    "dist/nes.min.js"
+  ],
+  "dependencies": {},
+  "scripts": {
+    "tslint": "node_modules/.bin/tslint -c tslint.json --project .",
+    "build": "node_modules/.bin/gulp"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-add-src": "^0.2.0",
+    "gulp-change": "^1.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-strip-comments": "^2.4.5",
+    "gulp-typescript": "^3.1.6",
+    "gulp-uglify": "^2.1.2",
+    "tslint": "^5.9.1",
+    "tslint-eslint-rules": "^5.1.0",
+    "typescript": "^2.6.2"
+  }
+}
